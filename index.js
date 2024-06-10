@@ -1,1 +1,22 @@
+//how to works with date
+//first of all we need to assign the current date and time to a varaible
+let current_date=new Date();
+//then we can get the yaer, month, day of month, day of week,hour, minuetes, and second.
 
+// how to get the year
+let year=current_date.getFullYear();
+
+// how to get the month of year
+let month=current_date.getMonth();
+
+// how to get the day of week   
+let day_week=current_date.getDay(); // the out for getDay is from 0 to 6, 0=sunday and 6=saterday 
+
+// how to get the hour of the day
+let hour=current_date.getHours();
+
+// how get the minutes of the current time
+let minutes=current_date.getMinutes();
+
+//how to get the second of the minute
+let second=current_date.getSeconds();
